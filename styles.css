@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.TTT {
+    width: 450px;
+    height: 450px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+button {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 120px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button:empty {
+    background-color: white;
+}
+
+button:empty:hover {
+    background-color: rgb(169, 169, 169);
+}
+
+button.x_space {
+    color: blue;
+}
+
+button.o_space {
+    color: red;
+}
+
+
+.win-container {
+    display: none;
+    
+
+    width: 450px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.player-go2 {
+    margin-top: 1.75rem;
+}
+
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-left: 5rem;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: left;
+    width: 450px;
+}
+
+
+
+
+
